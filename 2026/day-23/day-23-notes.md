@@ -1,4 +1,4 @@
-## git branchs
+### Git branches
 
 
 ## what is a branch in Git
