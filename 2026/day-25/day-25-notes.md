@@ -56,12 +56,12 @@
 
 #### what is  the diffrence between `--soft`, `--mixed`, and `--hard` ?
 
-| Reset Mode |  Commit Removed | Changes kept | staged |
-|------------|-----------------|--------------|--------|
+| Reset Mode | Commit Removed | Changes Kept | Staged |
+|------------|----------------|-------------|---------|
+| `--soft` | Yes | Yes | Yes |
+| `--mixed` | Yes | Yes | No |
+| `--hard` | Yes | No | No |
 
-| `--soft`     | Yes| Yes | Yes |
-| `--mixed`    | Yes| Yes | No |
-| `--hard`     | Yes | NO | No |
 
 ### which one is distructive and why ?
 
