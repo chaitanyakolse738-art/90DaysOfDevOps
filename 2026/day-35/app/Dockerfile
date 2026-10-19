@@ -12,9 +12,14 @@ FROM alpine:latest AS runtime
 
 WORKDIR /production
 
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+
 COPY --from=builder /app/myapp .
 
+RUN chown appuser:appgroup myapp
+
 CMD ["./myapp"]
+
 
 
 

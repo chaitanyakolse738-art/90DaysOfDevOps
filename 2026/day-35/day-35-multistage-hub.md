@@ -143,7 +143,6 @@ Configured the Docker Hub repository for better version management.
 
 - Multi-stage builds help create smaller, secure and production-ready Docker images, while Docker Hub provides a practical way to version and distribute those images.
 
-
 ## ✅ Result
 
 - Successfully completed Day 35 by building, optimizing, comparing, versioning and publishing a Dockerized Go application using multi-stage builds and Docker Hub.
