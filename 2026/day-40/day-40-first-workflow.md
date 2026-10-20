@@ -18,6 +18,9 @@
 - Cloned the repository locally.
 - Created the .github/workflows/ directory to store workflow configuration files.
 
+> **GitHub Actions Practice Repository:**  
+> [Click here to view the repository](https://github.com/chaitanyakolse738-art/github-action-practice)
+
 # Task 2: Create the Hello Workflow
 
 - Created .github/workflows/hello.yml with the following configuration:
